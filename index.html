@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Coursera Final Project</title>
 		<link rel="icon" type="img/png" href="http://cdn.onlinewebfonts.com/svg/img_121245.png">
-		<link rel="stylesheet" href="css/firstStyle.css">
+		<link rel="stylesheet" href="css/minimalized.css">
 	</head>
 	<body>
 		<header>
@@ -13,28 +13,29 @@
 				<a href="#basic-info">About Me</a>
 				<a href="#coursera-lessons">CSS Lessons</a>
 				<a href="#more-about-me">Three</a>
-				<a href="https://www.youtube.com/watch?v=phLh4Mnnn28" target="_BLANK">3!4!</a>
+				<a href="https://www.youtube.com/watch?v=phLh3Mnnn28" target="_BLANK">3!4!</a>
 			</nav>
 		</header>
+		<main>
 		<article id="basic-info">
-			<h2>About Me!</h2>
+			<h1>About Me!</h1>
 			<section id="favorite-foods">
-				<h3>Favorite Foods</h3>
-				<ul>
+				<h2>Favorite Foods</h2>
+				<ol>
 					<li><a href="https://assets-pergikuliner.com/uploads/image/picture/1525121/picture-1565247979.jpg">Nasi Bebek</a></li>
 					<li><a href="https://juragancipir.com/wp-content/uploads/2018/05/ayam-geprek.jpg">Ayam Geprek</a></li>
 					<li><a href="https://i1.wp.com/wonkywonderful.com/wp-content/uploads/2015/12/DSC0836.jpg">Tiramisu</a></li>
 					<li><a href="https://i1.wp.com/angsarap.net/wp-content/uploads/2013/04/mie-ayam-wide.jpg">Mie Ayam</a></li>
-				</ul>
+				</ol>
 			</section>
 			<section id="achievements">
-				<h3>Achievements</h3>
+				<h2>Achievements</h2>
 				<p>Progress in this course (100%) <br> <progress value="100" max="100"></progress></p>
 				<p>Progress in the Specialization capstone (20%) <br> <progress value="20" max="100"></progress></p>
 				<p>Progress in life goals (25%) <br> <progress value="25" max="100"></progress></p>
 			</section>
 			<section id="more-about-me">
-				<h3>More About Me</h3>
+				<h2>More About Me</h2>
 				<details>
 					<summary>My Childhood</summary>
 					<p>I grew up in a lab owned by scientist who trying to create a new superhuman, 
@@ -43,12 +44,12 @@
 			</section>
 		</article>
 		<article id="coursera-lessons">
-			<h2>CSS Lessons</h2>
+			<h1>CSS Lessons</h1>
 			<section id="css-week-1">
-				<h3>CSS Week 1 Lesson</h3>
+				<h2>CSS Week 1 Lesson</h2>
 				<details>
 					<summary>Colors</summary>
-					<h4>Ways to define colors</h4>
+					<h3>Ways to define colors</h3>
 					<ul>
 						<li>English!, example: red, green, beige, yellow, etc..</li>
 						<li>Hexadecimal, example: #000000, #ffffff, #4d55ca, etc..</li>
@@ -64,25 +65,112 @@
 						<li>font-variant: normal, small-caps</li>
 						<li>font-size: (small, medium, large), use px, use percentage..</li>
 						<li>text-align: left, right, center, justify</li>
+						<li>text-transform:upper, lowercase, capitalize</li>
 						<li>line-height: (margin for each line), 50%, 200%, etc..</li>
 					</ul>
 				</details>
 				<details>
-					<summary>Display and visibility</summary>
-					<p></p>
+					<Summary>Display and Visibility</Summary>
+					<ul>
+						<li>display: inline, block, inline-block, none</li>
+						<li>Float: left, right</li>
+						<li>clear: left, right, both</li>
+						<li>overflow: visible, hidden, scroll, auto</li>
+						<li>display: table (table-cell), grid, flexbox (probably not going work on certain browser)</li>
+						<li>visibility: visible, hidden, collapsed</li>
+					</ul>
+				</details>
+			</section>
+			<section  id="css-week-2">	
+				<h2>CSS Week 2 Lesson</h2>
+				<details>
+					<Summary>Box Model</Summary>
+					<ul>
+						<li><h3>border</h3>
+							Style: solid, dotted, dashed, grooved, inset, outset, ridged, hidden. 
+							<br> width: use px or (thin, medium, large/thick), can specify each sides width.
+							<br> color: as usual</li>
+						<li>Margin (space outside border): can be positive or negative values</li>
+						<li>Padding (space inside border): always positive values</li>
+						<li>Remember! Height and Width of padding and margin is additive!
+							<br><img src="img/padding-margin-size.png" width="50%" alt="how to count Width and Height of an element with padding and margin"></li>
+						<li>overflow: visible, hidden, scroll, auto</li>
+						<li>display: table (table-cell), grid, flexbox (probably not going work on certain browser)</li>
+						<li>visibility: visible, hidden, collapsed</li>
+					</ul>
 				</details>
 				<details>
-					<summary>else</summary>
-					<p>to be continued..</p>
+					<summary>Styling Link and List</summary>
+					<h3>Link</h3>
+					<ul>
+						<li>Have text-decoration: none; to remove underline</li>
+						<li>Have States (with precedence) --> link, visited, hover, focus, active</li>
+						<li>think how to use link semantically (diferentiate with button or etc..)</li>
+					</ul>
+					<h3>List</h3>
+					<ul>
+						<li>list-style-type: type of markers or values for ordered number</li>
+						<li>list-style-image: using image as your markers</li>
+						<li>list-style-position: positioning your marker</li>
+					</ul>
+				</details>
+				<details>
+					<summary>CSS Selectors</summary>
+					<p>what you see below is just a summary, for detailed explanation you can visit 
+					<a href="https://learn.shayhowe.com/advanced-html-css/complex-selectors/">learn.shayhowe.com on "complex selectors" page</a>
+					</p>
+					<ul>
+						<li>Common Selectors
+							<pre>
+								<code>
+	h1 {...} (tag type selector)
+	.tagline {...} (class selector)
+	#intro {...} (id selector)
+								</code>
+							</pre>
+						</li>
+						<li>Child Selectors
+							<pre>
+								<code>
+	article h1 {...} (Descendant selector)
+	article > p {...} (Direct Child selector)
+	#intro {...} (id selector)
+								</code>
+							</pre>
+						</li>
+						<li>Sibling Selectors
+							<pre>
+								<code>
+	h1 ~ p {...} (General Sibling selector)
+	h1 + p {...} (Adjacent Sibling selector)
+								</code>
+							</pre>
+						</li>
+						<li>Attribute Selectors
+							<pre>
+								<code>
+	a[target] {...} (Attribute Present selector)
+	a[href="http://google.com/"] {...} (Attribute Equals selector)
+	a[href*="login"] {...} (Attribute Contains Selector)
+	a[href^="https://"] (Attribute Begins With Selector)
+	a[href$=".pdf"] (Attribute Ends With Selector)
+	a[rel~="tag"] (Attribute Spaced Selector)
+	a[lang|="en"] (Attribute Hyphenated Selector)
+								</code>
+							</pre>
+						</li>
+						<li>Pseudo-classes (Will be explained later..)</li>
+						<li>Pseudo-elements (Will be explained later..)</li>
+					</ul>
 				</details>
 			</section>
 		</article>
+		</main>
 		<footer>
-			<p>
-				<a href="http://www.intro-webdesign.com/images/newlogo.png"><img src="http://www.intro-webdesign.com/images/newlogo.png" width="10%" alt="intro-webdesign.com Logo"></a>
-			This page was created by: <br> <span style="font-style:italic">AKCW10 and Colleen van Lent </span><br>
+			<p style="display:inline-block;"> This page was created by: <span style="font-style:italic">AKCW10 and Colleen van Lent </span><br>
 			To learn more about web design, visit <a href="http://www.intro-webdesign.com">Intro to Web Design</a>
 			</p>
+			<a style="display:inline-block;" href="http://www.intro-webdesign.com/images/newlogo.png"><img src="http://www.intro-webdesign.com/images/newlogo.png" height="40px" alt="intro-webdesign.com Logo"></a>
 		</footer>
 	</body>
 </html>

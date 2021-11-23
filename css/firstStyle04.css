@@ -1,0 +1,148 @@
+body {
+	color:#000000; /*1st color*/
+	background-color:#000000; /*1st color*/
+	padding:10px;
+	font-family:"trebuchet ms";
+	margin:5%;
+}
+h1 {
+	color:#FBF37C; /*4th color*/
+	padding:5px;
+	margin:5px;
+}
+h2 {
+	color:#7F7F7F; /*3rd color*/
+	background-color:#FBF37C; /*4th color*/
+	padding:5px;
+	font-variant:small-caps;
+	margin-block-start:0;
+    margin-block-end:0;
+	border:5px;
+	border-radius:8px 8px 0 0;
+	text-align:center;
+}
+h2:hover {
+	font-size:180%;
+}
+h3 {
+	background-color:#7F7F7F; /*3rd color*/
+	color:#FFFFFF; /*5th color*/
+	padding:5px;
+	margin:0;
+}
+h4 {
+	color:#58555A;/*2nd color*/
+	padding:5px;
+	margin:5px;
+}
+p{
+	padding-left:10px;
+	padding-right:10px;
+}
+header {
+	background-color:#58555A; /*2nd color*/
+	background: rgb(88,85,90);
+	background: linear-gradient(315deg, rgba(75,73,60,1) 0%, rgba(170,159,159,1) 100%);
+	text-align:center;
+	font-size:120%;
+	border:5px outset #FBF37C; /*4th color*/
+	border-radius:10px;
+	padding:10px;
+}
+header a {
+	display:inline-block;
+	color:#FFFFFF; /*5th color*/
+	border: 2px solid #FBF37C;
+	padding:5px;
+	margin:5px;
+	font-weight:bold;
+	width:20%;
+	text-decoration:none;
+}
+nav {
+	padding:5px;
+}
+footer {
+	color:#FBF37C; /*4th color*/
+	background-color:#58555A;	/*2nd color*/
+	background:linear-gradient(180deg, #FFFFFF, #58555A, #000000);
+	text-align:center;
+	padding:5px;
+	border-radius: 0 0 20% 20%;
+}
+footer a {
+	color:#FBF37C; /*4th color*/
+}
+details {
+	color:#58555A; /*2nd color*/
+	/*background-color:#FBF37C; /*random close tu 1 & 2 color*/
+	line-height:150%;
+	text-align:justify;
+	font-style:italic;
+}
+summary{
+	font-style:normal;
+	color:#000000; /*1st color*/
+	padding-left:10px;
+	padding-right:10px;
+}
+article {
+	background-color:#FFFFFF; /*5th color*/
+	margin-top:10px;
+	height:25%;
+	border:5px;
+	border-radius:10px 10px 0 0;
+}
+/*-----------------week 2!----------------------------*/
+
+header a:hover{
+	color:#58555A; /*2nd color*/
+	background-color:#FBF37C; /*4th color*/
+	text-transform:uppercase;
+}
+header a:focus{
+	color:#58555A; /*2nd color*/
+	background-color:#FBF37C; /*4th color*/
+	text-transform:uppercase;
+}
+header a:active{
+	color:#FBF37C; /*4th color*/
+	background-color:#58555A; /*2nd color*/
+	border-style:inset;
+}
+
+#basic-info {
+	background-color:#FFFFFF; /*5th color*/
+	style:block;
+	clear:both;
+	height:25%;
+	overflow:auto;
+}
+
+#basic-info section{
+	style:inline-block;
+	background-color:#FFFFFF; /*5th color*/
+	width:30%;
+	height:25%;
+	float:left;
+	overflow:auto;
+	text-align:left;
+	padding:5px;
+	margin:5px;
+}
+#coursera-lessons {
+	clear:both;
+}
+footer{
+	clear:both;
+}
+ul{
+	list-style-type:square;
+}
+ol {
+	list-style-type:lower-greek;
+}
+
+/* ul, ol {
+	list-style-image:url("../img/triad_ring.gif");
+} */

@@ -1,17 +1,17 @@
 body {
-	color:#555555; /*close to 5th color*/
-	background-color:#90cbfb; /*1st color*/
+	color:#003F63; /*close to 5th color*/
+	background-color:#353D40; /*1st color*/
 	padding:10px;
 	font-family:"trebuchet ms";
 }
 h1 {
-	color:#110066; /*2nd color*/
+	color:#D9D9D9; /*2nd color*/
 	padding:5px;
 	margin:5px;
 }
 h2 {
-	color:#ffffff; /*4th color*/
-	background-color:#110066; /*2nd color*/
+	color:#F2B138; /*4th color*/
+	background-color:#D9D9D9; /*2nd color*/
 	padding:5px;
 	font-variant:small-caps;
 	margin-block-start:0;
@@ -20,13 +20,13 @@ h2 {
 	border-radius:8px 8px 0 0;
 }
 h3 {
-	color:#ffffff; /*4th color*/
-	background-color:#919191; /*5th color*/
+	color:#F2B138; /*4th color*/
+	background-color:#003F63; /*5th color*/
 	padding:5px;
 	margin:0;
 }
 h4 {
-	color:#110066;/*2nd color*/
+	color:#353D40;/*2nd color*/
 	padding:5px;
 	margin:5px;
 }
@@ -35,18 +35,18 @@ p{
 	padding-right:10px;
 }
 header {
-	background-color:#ffd432; /*3rd color*/
+	background-color:#A1A5A6; /*3rd color*/
 	text-align:center;
 	font-size:140%;
-	border:5px solid #110066; /*2nd color*/
+	border:5px solid #D9D9D9; /*2nd color*/
 	border-radius:10px;
 }
 nav {
 	padding:5px;
 }
 footer {
-	color:#ffffff; /*4th color*/
-	background-color:#110066;	/*2nd color*/
+	color:#F2B138; /*4th color*/
+	background-color:#D9D9D9;	/*2nd color*/
 	text-align:center;
 	padding:5px;
 }
@@ -54,21 +54,21 @@ footer a {
 	color:white;
 }
 details {
-	color:#555555;
-	background-color:dddd88; /*random close tu 1 & 2 color*/
+	color:#555555; /*3rd?*/
+	background-color:#D9D9D9; /*random close tu 1 & 2 color*/
 	line-height:150%;
 	text-align:justify;
 	font-style:italic;
 }
 summary{
 	font-style:normal;
-	color:#228888; /*random near 5th color*/
+	color:#003F63; /*random near 5th color*/
 	padding-left:10px;
 	padding-right:10px;
 
 }
 article {
-	background-color:#ffffff; /*4th color*/
+	background-color:#F2B138; /*4th color*/
 	margin-top:10px;
 	border:5px;
 	border-radius:10px 10px 0 0;
